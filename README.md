@@ -1,7 +1,7 @@
-OpenRV
+Orion-RV
 ======
 
-OpenRV is an open-source FPGA-based RISC-V computer system.
+Orion-RV is an open-source FPGA-based RISC-V computer system.
 
 Goals:
 
@@ -19,10 +19,10 @@ Long-term goal:
 
 C++ Source
     ↓
-OpenRV Compiler
+Orion-RV Compiler
     ↓
 Linux
     ↓
-OpenRV CPU
+Orion-RV CPU
     ↓
 FPGA
