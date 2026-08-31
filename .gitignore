@@ -1,0 +1,49 @@
+# Build
+build/
+out/
+obj/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.map
+
+# Verilator
+obj_dir/
+*.vcd
+*.fst
+
+# Vivado
+*.jou
+*.log
+*.str
+*.xpr
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+.Xil/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
