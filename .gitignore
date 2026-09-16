@@ -47,3 +47,36 @@ compile_commands.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Questa / ModelSim generated state
+work/
+*.wlf
+*.cr.mti
+transcript
+vsim_stacktrace.vstf
+modelsim.ini
+
+# Quartus generated output
+db/
+incremental_db/
+output_files/
+prj/quartus/simulation/
+*.qws
+*.rpt
+*.smsg
+
+# Editor backups and local reference material
+*.bak
+*.bkp
+~$*
+word/*.pdf
+
+# Legacy third-party LED demo: duplicate top name, not part of this CPU
+rtl/led.v
+
+# Local credentials (never source inputs)
+.env
+.env.*
+*.pem
+*.key
+*_lic.dat

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "alu_edges"
+  },
+  {
+    "name": "mixed_seed_1",
+    "seed": 1
+  },
+  {
+    "name": "mixed_seed_7",
+    "seed": 7
+  },
+  {
+    "name": "mixed_seed_42",
+    "seed": 42
+  },
+  {
+    "name": "mixed_seed_2026",
+    "seed": 2026
+  }
+]

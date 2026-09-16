@@ -1,0 +1,122 @@
+[
+  {
+    "name": "taken_store_reg",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 88
+  },
+  {
+    "name": "taken_reg_store",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 88
+  },
+  {
+    "name": "not_taken",
+    "stalls": 0,
+    "redirects": 0,
+    "notTaken": 1,
+    "poison": 1,
+    "older": 0,
+    "start": 72,
+    "end": 88
+  },
+  {
+    "name": "jal",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 88
+  },
+  {
+    "name": "jalr",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 88,
+    "end": 104
+  },
+  {
+    "name": "alu_branch",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 92
+  },
+  {
+    "name": "alu_jalr",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 92
+  },
+  {
+    "name": "load_branch",
+    "stalls": 1,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 92
+  },
+  {
+    "name": "load_jalr",
+    "stalls": 1,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 104,
+    "end": 124
+  },
+  {
+    "name": "older_commit",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 1,
+    "start": 72,
+    "end": 96
+  },
+  {
+    "name": "chain",
+    "stalls": 0,
+    "redirects": 3,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 112
+  },
+  {
+    "name": "wrong_path_jump",
+    "stalls": 0,
+    "redirects": 1,
+    "notTaken": 0,
+    "poison": 0,
+    "older": 0,
+    "start": 72,
+    "end": 88
+  }
+]

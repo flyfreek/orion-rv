@@ -1,0 +1,793 @@
+{
+  "date": "2026-09-16",
+  "simulator": "Questa Altera Starter FPGA Edition 2025.2",
+  "environment": "Windows PowerShell; Python 3",
+  "total": 56,
+  "reference_unit_tests": 6,
+  "records": [
+    {
+      "suite": "basic",
+      "program": "inst_add.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 284,
+        "register_writes": 220,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_andi.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 162,
+        "register_writes": 122,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_auipc.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 22,
+        "register_writes": 18,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_beq.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 255,
+        "register_writes": 150,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_bge.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 273,
+        "register_writes": 159,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_bgeu.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 298,
+        "register_writes": 184,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_blt.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 255,
+        "register_writes": 150,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_bltu.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 280,
+        "register_writes": 175,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_bne.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 255,
+        "register_writes": 150,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_jal.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 19,
+        "register_writes": 14,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_jalr.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 72,
+        "register_writes": 55,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_lui.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 29,
+        "register_writes": 21,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_ori.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 169,
+        "register_writes": 129,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_simple.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 5,
+        "register_writes": 4,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_slli.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 205,
+        "register_writes": 154,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_slti.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 201,
+        "register_writes": 150,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_sltiu.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 201,
+        "register_writes": 150,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_srai.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 220,
+        "register_writes": 169,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_srli.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 214,
+        "register_writes": 163,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "basic",
+      "program": "inst_xori.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 171,
+        "register_writes": 131,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_dual_sources.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 17,
+        "register_writes": 9,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_ex_mem.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 16,
+        "register_writes": 8,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_latest_priority.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 17,
+        "register_writes": 9,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_load_alu.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 29,
+        "register_writes": 11,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_load_branch.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 32,
+        "register_writes": 11,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_load_store_addr.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 38,
+        "register_writes": 12,
+        "loads": 2,
+        "stores": 3,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_load_store_data.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 34,
+        "register_writes": 11,
+        "loads": 2,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "hazard",
+      "program": "inst_mem_wb.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 17,
+        "register_writes": 8,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_alu_branch.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 46,
+        "register_writes": 19,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_alu_jalr.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 51,
+        "register_writes": 21,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_chain.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 57,
+        "register_writes": 22,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_jal.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 50,
+        "register_writes": 20,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_jalr.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 54,
+        "register_writes": 21,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_load_branch.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 46,
+        "register_writes": 19,
+        "loads": 2,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_load_jalr.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 59,
+        "register_writes": 22,
+        "loads": 2,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_not_taken.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 47,
+        "register_writes": 19,
+        "loads": 1,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_older_commit.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 61,
+        "register_writes": 22,
+        "loads": 2,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_taken_reg_store.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 45,
+        "register_writes": 18,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_taken_store_reg.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 45,
+        "register_writes": 18,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "control",
+      "program": "inst_wrong_path_jump.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 50,
+        "register_writes": 19,
+        "loads": 1,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_bounds_rom.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 49,
+        "register_writes": 25,
+        "loads": 4,
+        "stores": 3,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_load_bytes.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 126,
+        "register_writes": 43,
+        "loads": 16,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_load_halves.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 75,
+        "register_writes": 32,
+        "loads": 8,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_store_bytes.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 64,
+        "register_writes": 35,
+        "loads": 4,
+        "stores": 8,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_store_halves.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 36,
+        "register_writes": 21,
+        "loads": 2,
+        "stores": 4,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_store_mixed.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 37,
+        "register_writes": 19,
+        "loads": 2,
+        "stores": 5,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "memory",
+      "program": "inst_words.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 57,
+        "register_writes": 27,
+        "loads": 5,
+        "stores": 4,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "x0",
+      "program": "inst_alu_discard.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 103,
+        "register_writes": 31,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "x0",
+      "program": "inst_jump_discard.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 17,
+        "register_writes": 9,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "x0",
+      "program": "inst_load_discard.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 51,
+        "register_writes": 19,
+        "loads": 5,
+        "stores": 1,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "x0",
+      "program": "inst_read_store_branch.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 35,
+        "register_writes": 15,
+        "loads": 2,
+        "stores": 2,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "reference",
+      "program": "inst_alu_edges.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 60,
+        "register_writes": 27,
+        "loads": 0,
+        "stores": 0,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "reference",
+      "program": "inst_mixed_seed_1.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 141,
+        "register_writes": 124,
+        "loads": 13,
+        "stores": 9,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "reference",
+      "program": "inst_mixed_seed_2026.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 140,
+        "register_writes": 110,
+        "loads": 11,
+        "stores": 20,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "reference",
+      "program": "inst_mixed_seed_42.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 135,
+        "register_writes": 111,
+        "loads": 12,
+        "stores": 12,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    },
+    {
+      "suite": "reference",
+      "program": "inst_mixed_seed_7.data",
+      "result": "PASS",
+      "reference": {
+        "steps": 140,
+        "register_writes": 109,
+        "loads": 11,
+        "stores": 13,
+        "final_registers_checked": 32,
+        "final_ram_words_checked": 4096,
+        "status": "REF_PASS"
+      }
+    }
+  ]
+}
